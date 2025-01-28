@@ -7,5 +7,5 @@ metadata:
     jenkins.io/job-url: "http://localhost:8090/job/prueba1"
 spec:
   type: service
-  owner: equipo-dev
+  owner: guests
   lifecycle: production
