@@ -1,9 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ejemplo
-  description: Mi primer componente en Backstage
+  name: mi-proyecto
+  description: Proyecto de ejemplo con integración de Jenkins.
+  annotations:
+    jenkins.io/job-url: "http://localhost:8090/job/prueba1"
 spec:
   type: service
+  owner: equipo-dev
   lifecycle: production
-  owner: equipo-a
